@@ -66,7 +66,7 @@ app.post("/viewers",(req,res)=>{
             if(decoded){
                 usermodel.find().then(
                     (response)=>{
-                        res.json({token: token, data: response})
+                        res.json({response})
                     }
                 ).catch()
             }
