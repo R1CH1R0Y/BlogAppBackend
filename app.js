@@ -25,6 +25,8 @@ app.post("/signup",async(req,res)=>{
     res.json({status:"success"})
 })
 
+
+
 app.listen(8435,()=>{
     console.log("server started")
 })
